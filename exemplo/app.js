@@ -13,7 +13,7 @@ connectDB();
 app.use(express.json());
 
 // Rotas
-app.use('/api/clientes', cliente_routes);
+app.use('/clientes', cliente_routes);
 
 
 app.listen(PORT, () => {
